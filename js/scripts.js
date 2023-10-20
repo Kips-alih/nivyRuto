@@ -8,23 +8,47 @@ $(document).ready(function(){
     $(".design").fadeIn("slow");
     });
   
-    $(".development").click(function(){
-      $(".development").slideUp("slow");
+    $(".calendar").click(function(){
+      $(".calendar").slideUp("slow");
       $("#hide2").slideToggle("slow");
     });
     $("#hide2").click(function(){
       $("#hide2").fadeOut("slow");
-      $(".development").fadeIn("slow");
+      $(".calendar").fadeIn("slow");
       });
 
-      $(".management").click(function(){
-        $(".management").slideUp("slow");
+      $(".event").click(function(){
+        $(".event").slideUp("slow");
         $("#hide3").slideToggle("slow");
       });
       $("#hide3").click(function(){
         $("#hide3").fadeOut("slow");
-        $(".management").fadeIn("slow");
+        $(".event").fadeIn("slow");
         });
+        $(".email").click(function(){
+          $(".email").slideUp("slow");
+          $("#hide4").slideToggle("slow");
+        });
+        $("#hide4").click(function(){
+          $("#hide4").fadeOut("slow");
+          $(".email").fadeIn("slow");
+          });
+          $(".travel").click(function(){
+            $(".travel").slideUp("slow");
+            $("#hide5").slideToggle("slow");
+          });
+          $("#hide5").click(function(){
+            $("#hide5").fadeOut("slow");
+            $(".travel").fadeIn("slow");
+            });
+            $(".smedia").click(function(){
+              $(".smedia").slideUp("slow");
+              $("#hide6").slideToggle("slow");
+            });
+            $("#hide6").click(function(){
+              $("#hide6").fadeOut("slow");
+              $(".smedia").fadeIn("slow");
+              });
 });
 
 $(document).ready(function(){
