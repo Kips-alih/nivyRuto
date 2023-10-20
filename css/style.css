@@ -193,3 +193,7 @@ header {
   background-color: #ddd;
   color: black;
 }
+#workIcon{
+  width: 100px;
+  height: 100px;
+}
