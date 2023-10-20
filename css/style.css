@@ -189,3 +189,7 @@ header {
   margin-left: 20px;
   border-radius: 50%;
 }
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
